@@ -16,7 +16,7 @@
     <div class="container large-screen-up my-2">
         <!-- FORM START HERE -->
         <form action="#" method="POST">
-            <div class="p-3 mb-2 bg-info text-white">Student Information</div>
+            <div class="p-2 rounded mb-2 bg-info text-white text-center">Student Information</div>
             <div class="row">
                 <!-- first and last name -->
                 <div class="col mb-3">
@@ -81,24 +81,25 @@
                 <!-- intended class -->
                 <div class="col-12 mb-3">
                     <div class="input-group">
-                        <span class="input-group-text">Intended Class</span>
-                        <div class="radio-input border rounded-end p-1">
+                        <span class="input-group-text" id="intended-class">Intended Class</span>
+                        <div class="radio-input border rounded-end" id="intended-class-radio">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="#" value="a1">
+                                <input class="form-check-input border-success" type="radio" name="#" value="a1">
                                 <label class="form-check-label" for="male">A1</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="#" value="a2">
+                                <input class="form-check-input border-success" type="radio" name="#" value="a2">
                                 <label class="form-check-label" for="female">A2</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="#" value="b1">
+                                <input class="form-check-input border-success" type="radio" name="#" value="b1">
                                 <label class="form-check-label" for="female">B1</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="#" value="b2">
+                                <input class="form-check-input border-success" type="radio" name="#" value="b2">
                                 <label class="form-check-label" for="female">B2</label>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -107,7 +108,7 @@
             <!-- 1st row ends here -->
 
             <!-- 2nd row starts -->
-            <div class="p-3 mb-2 bg-info text-white">Guardian Information</div>
+            <div class="p-2 rounded mb-2 bg-info text-white text-center">Guardian Information</div>
             <div class="row">
 
                 <!-- guardian first and last name -->
